@@ -1,0 +1,30 @@
+{
+  "name": "lakeviewnwa",
+  "version": "1.0.0",
+  "description": "Lakeview Website",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.12.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/jbourlo/lakeviewnwa"
+  },
+  "keywords": [
+    "lakeview",
+    "cave",
+    "springs",
+    "arkansas"
+  ],
+  "author": "Jarrod Bourlon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jbourlo/lakeviewnwa/issues"
+  },
+  "homepage": "https://github.com/jbourlo/lakeviewnwa"
+}
