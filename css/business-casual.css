@@ -6,7 +6,8 @@
 
 body {
     font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-    background: url('../img/bg.jpg') no-repeat center center fixed;
+   /*background: url('../img/bg.jpg') no-repeat center center fixed;*/
+   background-color:rgb(100,74,32);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -49,7 +50,7 @@ hr {
 
 .navbar-nav {
     text-transform: uppercase;
-    font-weight: 400;
+    font-weight: 200;
     letter-spacing: 3px;
 }
 
