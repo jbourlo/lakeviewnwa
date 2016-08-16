@@ -1,0 +1,20 @@
+#! /bin/sh
+
+case "$1" in
+ start)
+   /usr/bin/awful --port=80 /home/ubuntu/lakeviewnwa/index.scm
+   ;;
+ stop)
+   pkill awful
+   sleep 10
+   ;;
+ restart)
+   pkill awful
+   sleep 20
+   /usr/bin/awful /home/ubuntu/lakeviewnwa/index.scm
+   ;;
+ *)
+   echo "Usage: webserver {start|stop|restart}" >&2
+   exit 3
+   ;;
+esac
