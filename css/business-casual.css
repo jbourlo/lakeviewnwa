@@ -102,6 +102,11 @@ hr {
     float: none;
     margin: 0 auto 0;
 }
+.img-logo {
+   padding-left: 20%;
+   padding-right: 20%;
+}
+
 
 footer {
     background: #fff;
